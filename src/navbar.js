@@ -1,3 +1,5 @@
+// function component implementation
+
 const Navbar = () => {
   return (
     <nav className="navbar">
@@ -10,4 +12,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default Navbar; // export to use for outer code
