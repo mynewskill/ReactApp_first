@@ -5,6 +5,7 @@
   margin: 0;
   font-family: "Quicksand";
   color: #333;
+  box-sizing: border-box;
 }
 .navbar {
   padding: 20px;
@@ -41,7 +42,8 @@
   border-bottom: 1px solid #fafafa;
 }
 .blog-preview:hover {
-  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 2px 1px rgba(125, 125, 125, 0.3);
+  /* outline: 1px solid #606060; */
 }
 .blog-preview h2 {
   font-size: 20px;
